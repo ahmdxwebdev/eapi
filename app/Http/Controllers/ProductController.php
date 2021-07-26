@@ -107,5 +107,8 @@ class ProductController extends Controller
         $product->delete();
 
         return response(null, Response::HTTP_NO_CONTENT);
+        // return response()->json('Data has been deleted');
+
+
     }
 }
